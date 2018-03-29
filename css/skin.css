@@ -1,0 +1,1293 @@
+/* Color Picker CSS */
+
+.color_picker_area {
+    background-color: #f3f6f9;
+    border-radius: 0 0 4px;
+    box-shadow: 3px 2px 3px rgba(0, 0, 0, 0.15);
+    height: auto;
+    left: 0;
+    padding: 30px 25px 30px 30px;
+    position: fixed;
+    top: 20%;
+    -webkit-transition-duration: 500ms;
+    transition-duration: 500ms;
+    width: 300px;
+    z-index: 9999;
+}
+
+.color_picker_switcher {
+    border-radius: 0 4px 4px 0;
+    right: -50px;
+    left: auto;
+    position: absolute;
+    background-color: #2196f3;
+    width: 50px;
+    height: 50px;
+    top: 0;
+    color: #fff;
+    font-size: 30px;
+    text-align: center;
+    line-height: 50px;
+    cursor: pointer;
+    box-shadow: 2px 5px 10px rgba(0, 0, 0, 0.15);
+}
+
+.color_picker_area h4 {
+    font-size: 18px;
+    margin-bottom: 20px;
+    text-align: center;
+    font-weight: 500;
+}
+
+.dark-version .color_picker_area h4 {
+    color: #000
+}
+
+.color_picker_area form {
+    text-align: center;
+}
+
+.theme-variations > p {
+    margin-top: 30px;
+    margin-bottom: 0;
+    font-size: 14px;
+    font-weight: 500;
+    text-transform: capitalize;
+    color: #fff;
+    background-color: #000;
+    padding: 10px 15px;
+    border-radius: 6px;
+    box-shadow: 2px 4px 10px rgba(0, 0, 0, .15);
+    cursor: pointer;
+}
+
+.theme-variations > p.light-theme {
+    color: #000;
+    background-color: #fff;
+}
+
+.color_picker_area.off {
+    left: -300px;
+}
+
+input[id*="cor"] {
+    display: none;
+}
+
+input[id*="cor"]:checked + label:before {
+    content: '\e66c';
+    display: block;
+    position: absolute;
+    font-family: 'Pe-icon-7-stroke';
+    top: 0;
+    left: 4px;
+    font-size: 20px;
+    color: #fff;
+    font-weight: 400;
+}
+
+label[class*="cor"] {
+    border: 1px solid transparent;
+    cursor: pointer;
+    display: inline-block;
+    height: 30px;
+    margin-right: 5px;
+    position: relative;
+    width: 30px;
+    -webkit-transition-duration: 500ms;
+    transition-duration: 500ms;
+    border-radius: 3px;
+    box-shadow: 1px 2px 7px rgba(0, 0, 0, 0.075);
+}
+
+label[class*="cor"]:hover {
+    border-color: #15151e;
+}
+
+/* blue */
+
+.cor1 {
+    background-color: #3498db;
+}
+
+/* default */
+
+.cor2 {
+    background-color: #2196F3;
+}
+
+/* light-green */
+
+.cor3 {
+    background-color: #1abc9c;
+}
+
+/* deep-green */
+
+.cor4 {
+    background-color: #27ae60;
+}
+
+/* orange */
+
+.cor5 {
+    background-color: #f39c12;
+}
+
+/* deep-orange */
+
+.cor6 {
+    background-color: #d35400;
+}
+
+/* red */
+
+.cor7 {
+    background-color: #F44336;
+}
+
+/* pink */
+
+.cor8 {
+    background-color: #E91E63;
+}
+
+/* purple */
+
+.cor9 {
+    background-color: #9C27B0
+}
+
+/* cyan */
+
+.cor10 {
+    background-color: #00BCD4;
+}
+
+/* teal */
+
+.cor11 {
+    background-color: #009688;
+}
+
+/* amber */
+
+.cor12 {
+    background-color: #FFC107;
+}
+
+
+
+/* ==========================
+::  Blue Skin Area CSS
+========================== */
+
+.blue .pager .prev > a,
+.blue .pager .next > a,
+.blue .coming-soon-area .subscribe_bar button,
+.blue .coming-soon-area .social_share_area > a:hover,
+.blue #scrollUp,
+.blue .boast-btn:after,
+.blue .single_feature:hover .feature_icon > i,
+.blue .team-overlay-effect,
+.blue .left-side-menu,
+.blue .subscribe--area form > button,
+.blue .color_picker_switcher {
+    background-color: #3498db;
+}
+
+.blue .wellcome_area .submit,
+.blue .content-area,
+.blue .new-collection > a,
+.blue .collection_area .owl-dot.active,
+.blue .support_text > h4 > a,
+.blue .call-to-action-area {
+    background: #3498db;
+}
+
+.blue .pager .prev > a:hover,
+.blue .pager .next > a:hover,
+.blue .dropdown-item:hover,
+.blue .boast-btn:hover,
+.blue .boast-btn.white-btn,
+.blue .new-collection > a:hover,
+.blue .support_text > h4 > a:hover,
+.blue .social_links_area > a:hover,
+.blue .made_by_text > p > i,
+.blue .single_contact_area > p > i,
+.blue .support_text > h4,
+.blue .single_feature .single_feature_text > h2,
+.blue .single-feature-area > i,
+.blue .single-opportunity:hover i,
+.blue .single_feature .single_feature_text > h2,
+.blue .single-blog-post .post-author > a:hover,
+.blue .single-blog-post .post-favourite > a:hover,
+.blue .single-blog-post .post-date > a:hover,
+.blue .single-blog-post .post-comments > a:hover,
+.blue .single-blog-post .post-headline > a:hover,
+.blue .coming-soon-area .social_share_area > a {
+    color: #3498db;
+}
+
+.blue .boast-btn,
+.blue .boast-btn:hover,
+.blue .testimonials-area .owl-dot,
+.blue .single-blog-post blockquote,
+.blue .pager .prev > a,
+.blue .pager .next > a,
+.blue .pager .prev > a:hover,
+.blue .pager .next > a:hover {
+    border-color: #3498db;
+}
+
+.blue .pager .prev > a,
+.blue .pager .next > a,
+.blue .coming-soon-area .subscribe_bar button,
+.blue .coming-soon-area .social_share_area > a:hover,
+.blue .boast-btn,
+.blue .boast-btn.white-btn:hover,
+.blue .support_text > h4 > a,
+.blue #scrollUp {
+    color: #fff;
+}
+
+.blue .support_text > h4 > a:hover,
+.blue .boast-btn.white-btn:after,
+.blue .new-collection > a:hover {
+    background-color: #fff;
+}
+
+.blue .dropdown-item:hover {
+    background-color: #f7f7f9;
+}
+
+.blue .boast-btn.white-btn {
+    border: 2px solid #fff;
+}
+
+.blue .boast-btn.white-btn:hover {
+    border-color: #fff;
+}
+
+.blue .collection_area .owl-dot.active {
+    border-color: transparent;
+}
+
+.blue .pager .prev > a:hover,
+.blue .pager .next > a:hover {
+    background-color: transparent;
+}
+
+/* ==========================
+::  Light-green Skin Area CSS
+========================== */
+
+.light-green .pager .prev > a,
+.light-green .pager .next > a,
+.light-green .coming-soon-area .subscribe_bar button,
+.light-green .coming-soon-area .social_share_area > a:hover,
+.light-green #scrollUp,
+.light-green .boast-btn:after,
+.light-green .single_feature:hover .feature_icon > i,
+.light-green .team-overlay-effect,
+.light-green .left-side-menu,
+.light-green .subscribe--area form > button,
+.light-green .color_picker_switcher {
+    background-color: #1abc9c;
+}
+
+.light-green .wellcome_area .submit,
+.light-green .content-area,
+.light-green .new-collection > a,
+.light-green .collection_area .owl-dot.active,
+.light-green .support_text > h4 > a,
+.light-green .call-to-action-area {
+    background: #1abc9c;
+}
+
+.light-green .pager .prev > a:hover,
+.light-green .pager .next > a:hover,
+.light-green .dropdown-item:hover,
+.light-green .boast-btn:hover,
+.light-green .boast-btn.white-btn,
+.light-green .new-collection > a:hover,
+.light-green .support_text > h4 > a:hover,
+.light-green .social_links_area > a:hover,
+.light-green .made_by_text > p > i,
+.light-green .single_contact_area > p > i,
+.light-green .support_text > h4,
+.light-green .single_feature .single_feature_text > h2,
+.light-green .single-feature-area > i,
+.light-green .single-opportunity:hover i,
+.light-green .single_feature .single_feature_text > h2,
+.light-green .single-blog-post .post-author > a:hover,
+.light-green .single-blog-post .post-favourite > a:hover,
+.light-green .single-blog-post .post-date > a:hover,
+.light-green .single-blog-post .post-comments > a:hover,
+.light-green .single-blog-post .post-headline > a:hover,
+.light-green .coming-soon-area .social_share_area > a {
+    color: #1abc9c;
+}
+
+.light-green .boast-btn,
+.light-green .boast-btn:hover,
+.light-green .testimonials-area .owl-dot,
+.light-green .single-blog-post blockquote,
+.light-green .pager .prev > a,
+.light-green .pager .next > a,
+.light-green .pager .prev > a:hover,
+.light-green .pager .next > a:hover {
+    border-color: #1abc9c;
+}
+
+.light-green .pager .prev > a,
+.light-green .pager .next > a,
+.light-green .coming-soon-area .subscribe_bar button,
+.light-green .coming-soon-area .social_share_area > a:hover,
+.light-green .boast-btn,
+.light-green .boast-btn.white-btn:hover,
+.light-green .support_text > h4 > a,
+.light-green #scrollUp {
+    color: #fff;
+}
+
+.light-green .support_text > h4 > a:hover,
+.light-green .boast-btn.white-btn:after,
+.light-green .new-collection > a:hover {
+    background-color: #fff;
+}
+
+.light-green .dropdown-item:hover {
+    background-color: #f7f7f9;
+}
+
+.light-green .boast-btn.white-btn {
+    border: 2px solid #fff;
+}
+
+.light-green .boast-btn.white-btn:hover {
+    border-color: #fff;
+}
+
+.light-green .collection_area .owl-dot.active {
+    border-color: transparent;
+}
+
+.light-green .pager .prev > a:hover,
+.light-green .pager .next > a:hover {
+    background-color: transparent;
+}
+
+/* ==========================
+::  Deep-green Skin Area CSS
+========================== */
+
+.deep-green .pager .prev > a,
+.deep-green .pager .next > a,
+.deep-green .coming-soon-area .subscribe_bar button,
+.deep-green .coming-soon-area .social_share_area > a:hover,
+.deep-green #scrollUp,
+.deep-green .boast-btn:after,
+.deep-green .single_feature:hover .feature_icon > i,
+.deep-green .team-overlay-effect,
+.deep-green .left-side-menu,
+.deep-green .subscribe--area form > button,
+.deep-green .color_picker_switcher {
+    background-color: #27ae60;
+}
+
+.deep-green .wellcome_area .submit,
+.deep-green .content-area,
+.deep-green .new-collection > a,
+.deep-green .collection_area .owl-dot.active,
+.deep-green .support_text > h4 > a,
+.deep-green .call-to-action-area {
+    background: #27ae60;
+}
+
+.deep-green .pager .prev > a:hover,
+.deep-green .pager .next > a:hover,
+.deep-green .dropdown-item:hover,
+.deep-green .boast-btn:hover,
+.deep-green .boast-btn.white-btn,
+.deep-green .new-collection > a:hover,
+.deep-green .support_text > h4 > a:hover,
+.deep-green .social_links_area > a:hover,
+.deep-green .made_by_text > p > i,
+.deep-green .single_contact_area > p > i,
+.deep-green .support_text > h4,
+.deep-green .single_feature .single_feature_text > h2,
+.deep-green .single-feature-area > i,
+.deep-green .single-opportunity:hover i,
+.deep-green .single_feature .single_feature_text > h2,
+.deep-green .single-blog-post .post-author > a:hover,
+.deep-green .single-blog-post .post-favourite > a:hover,
+.deep-green .single-blog-post .post-date > a:hover,
+.deep-green .single-blog-post .post-comments > a:hover,
+.deep-green .single-blog-post .post-headline > a:hover,
+.deep-green .coming-soon-area .social_share_area > a {
+    color: #27ae60;
+}
+
+.deep-green .boast-btn,
+.deep-green .boast-btn:hover,
+.deep-green .testimonials-area .owl-dot,
+.deep-green .single-blog-post blockquote,
+.deep-green .pager .prev > a,
+.deep-green .pager .next > a,
+.deep-green .pager .prev > a:hover,
+.deep-green .pager .next > a:hover {
+    border-color: #27ae60;
+}
+
+.deep-green .pager .prev > a,
+.deep-green .pager .next > a,
+.deep-green .coming-soon-area .subscribe_bar button,
+.deep-green .coming-soon-area .social_share_area > a:hover,
+.deep-green .boast-btn,
+.deep-green .boast-btn.white-btn:hover,
+.deep-green .support_text > h4 > a,
+.deep-green #scrollUp {
+    color: #fff;
+}
+
+.deep-green .support_text > h4 > a:hover,
+.deep-green .boast-btn.white-btn:after,
+.deep-green .new-collection > a:hover {
+    background-color: #fff;
+}
+
+.deep-green .dropdown-item:hover {
+    background-color: #f7f7f9;
+}
+
+.deep-green .boast-btn.white-btn {
+    border: 2px solid #fff;
+}
+
+.deep-green .boast-btn.white-btn:hover {
+    border-color: #fff;
+}
+
+.deep-green .collection_area .owl-dot.active {
+    border-color: transparent;
+}
+
+.deep-green .pager .prev > a:hover,
+.deep-green .pager .next > a:hover {
+    background-color: transparent;
+}
+
+/* ======================
+::  Orange Skin Area CSS
+===================== */
+
+.orange .pager .prev > a,
+.orange .pager .next > a,
+.orange .coming-soon-area .subscribe_bar button,
+.orange .coming-soon-area .social_share_area > a:hover,
+.orange #scrollUp,
+.orange .boast-btn:after,
+.orange .single_feature:hover .feature_icon > i,
+.orange .team-overlay-effect,
+.orange .left-side-menu,
+.orange .subscribe--area form > button,
+.orange .color_picker_switcher {
+    background-color: #f39c12;
+}
+
+.orange .wellcome_area .submit,
+.orange .content-area,
+.orange .new-collection > a,
+.orange .collection_area .owl-dot.active,
+.orange .support_text > h4 > a,
+.orange .call-to-action-area {
+    background: #f39c12;
+}
+
+.orange .pager .prev > a:hover,
+.orange .pager .next > a:hover,
+.orange .dropdown-item:hover,
+.orange .boast-btn:hover,
+.orange .boast-btn.white-btn,
+.orange .new-collection > a:hover,
+.orange .support_text > h4 > a:hover,
+.orange .social_links_area > a:hover,
+.orange .made_by_text > p > i,
+.orange .single_contact_area > p > i,
+.orange .support_text > h4,
+.orange .single_feature .single_feature_text > h2,
+.orange .single-feature-area > i,
+.orange .single-opportunity:hover i,
+.orange .single_feature .single_feature_text > h2,
+.orange .single-blog-post .post-author > a:hover,
+.orange .single-blog-post .post-favourite > a:hover,
+.orange .single-blog-post .post-date > a:hover,
+.orange .single-blog-post .post-comments > a:hover,
+.orange .single-blog-post .post-headline > a:hover,
+.orange .coming-soon-area .social_share_area > a {
+    color: #f39c12;
+}
+
+.orange .boast-btn,
+.orange .boast-btn:hover,
+.orange .testimonials-area .owl-dot,
+.orange .single-blog-post blockquote,
+.orange .pager .prev > a,
+.orange .pager .next > a,
+.orange .pager .prev > a:hover,
+.orange .pager .next > a:hover {
+    border-color: #f39c12;
+}
+
+.orange .pager .prev > a,
+.orange .pager .next > a,
+.orange .coming-soon-area .subscribe_bar button,
+.orange .coming-soon-area .social_share_area > a:hover,
+.orange .boast-btn,
+.orange .boast-btn.white-btn:hover,
+.orange .support_text > h4 > a,
+.orange #scrollUp {
+    color: #fff;
+}
+
+.orange .support_text > h4 > a:hover,
+.orange .boast-btn.white-btn:after,
+.orange .new-collection > a:hover {
+    background-color: #fff;
+}
+
+.orange .dropdown-item:hover {
+    background-color: #f7f7f9;
+}
+
+.orange .boast-btn.white-btn {
+    border: 2px solid #fff;
+}
+
+.orange .boast-btn.white-btn:hover {
+    border-color: #fff;
+}
+
+.orange .collection_area .owl-dot.active {
+    border-color: transparent;
+}
+
+.orange .pager .prev > a:hover,
+.orange .pager .next > a:hover {
+    background-color: transparent;
+}
+
+/* =========================
+::  Deep-orange Skin Area CSS
+========================= */
+
+.deep-orange .pager .prev > a,
+.deep-orange .pager .next > a,
+.deep-orange .coming-soon-area .subscribe_bar button,
+.deep-orange .coming-soon-area .social_share_area > a:hover,
+.deep-orange #scrollUp,
+.deep-orange .boast-btn:after,
+.deep-orange .single_feature:hover .feature_icon > i,
+.deep-orange .team-overlay-effect,
+.deep-orange .left-side-menu,
+.deep-orange .subscribe--area form > button,
+.deep-orange .color_picker_switcher {
+    background-color: #d35400;
+}
+
+.deep-orange .wellcome_area .submit,
+.deep-orange .content-area,
+.deep-orange .new-collection > a,
+.deep-orange .collection_area .owl-dot.active,
+.deep-orange .support_text > h4 > a,
+.deep-orange .call-to-action-area {
+    background: #d35400;
+}
+
+.deep-orange .pager .prev > a:hover,
+.deep-orange .pager .next > a:hover,
+.deep-orange .dropdown-item:hover,
+.deep-orange .boast-btn:hover,
+.deep-orange .boast-btn.white-btn,
+.deep-orange .new-collection > a:hover,
+.deep-orange .support_text > h4 > a:hover,
+.deep-orange .social_links_area > a:hover,
+.deep-orange .made_by_text > p > i,
+.deep-orange .single_contact_area > p > i,
+.deep-orange .support_text > h4,
+.deep-orange .single_feature .single_feature_text > h2,
+.deep-orange .single-feature-area > i,
+.deep-orange .single-opportunity:hover i,
+.deep-orange .single_feature .single_feature_text > h2,
+.deep-orange .single-blog-post .post-author > a:hover,
+.deep-orange .single-blog-post .post-favourite > a:hover,
+.deep-orange .single-blog-post .post-date > a:hover,
+.deep-orange .single-blog-post .post-comments > a:hover,
+.deep-orange .single-blog-post .post-headline > a:hover,
+.deep-orange .coming-soon-area .social_share_area > a {
+    color: #d35400;
+}
+
+.deep-orange .boast-btn,
+.deep-orange .boast-btn:hover,
+.deep-orange .testimonials-area .owl-dot,
+.deep-orange .single-blog-post blockquote,
+.deep-orange .pager .prev > a,
+.deep-orange .pager .next > a,
+.deep-orange .pager .prev > a:hover,
+.deep-orange .pager .next > a:hover {
+    border-color: #d35400;
+}
+
+.deep-orange .pager .prev > a,
+.deep-orange .pager .next > a,
+.deep-orange .coming-soon-area .subscribe_bar button,
+.deep-orange .coming-soon-area .social_share_area > a:hover,
+.deep-orange .boast-btn,
+.deep-orange .boast-btn.white-btn:hover,
+.deep-orange .support_text > h4 > a,
+.deep-orange #scrollUp {
+    color: #fff;
+}
+
+.deep-orange .support_text > h4 > a:hover,
+.deep-orange .boast-btn.white-btn:after,
+.deep-orange .new-collection > a:hover {
+    background-color: #fff;
+}
+
+.deep-orange .dropdown-item:hover {
+    background-color: #f7f7f9;
+}
+
+.deep-orange .boast-btn.white-btn {
+    border: 2px solid #fff;
+}
+
+.deep-orange .boast-btn.white-btn:hover {
+    border-color: #fff;
+}
+
+.deep-orange .collection_area .owl-dot.active {
+    border-color: transparent;
+}
+
+.deep-orange .pager .prev > a:hover,
+.deep-orange .pager .next > a:hover {
+    background-color: transparent;
+}
+
+/* ===================
+::  Red Skin Area CSS
+=================== */
+
+.red .pager .prev > a,
+.red .pager .next > a,
+.red .coming-soon-area .subscribe_bar button,
+.red .coming-soon-area .social_share_area > a:hover,
+.red #scrollUp,
+.red .boast-btn:after,
+.red .single_feature:hover .feature_icon > i,
+.red .team-overlay-effect,
+.red .left-side-menu,
+.red .subscribe--area form > button,
+.red .color_picker_switcher {
+    background-color: #F44336;
+}
+
+.red .wellcome_area .submit,
+.red .content-area,
+.red .new-collection > a,
+.red .collection_area .owl-dot.active,
+.red .support_text > h4 > a,
+.red .call-to-action-area {
+    background: #F44336;
+}
+
+.red .pager .prev > a:hover,
+.red .pager .next > a:hover,
+.red .dropdown-item:hover,
+.red .boast-btn:hover,
+.red .boast-btn.white-btn,
+.red .new-collection > a:hover,
+.red .support_text > h4 > a:hover,
+.red .social_links_area > a:hover,
+.red .made_by_text > p > i,
+.red .single_contact_area > p > i,
+.red .support_text > h4,
+.red .single_feature .single_feature_text > h2,
+.red .single-feature-area > i,
+.red .single-opportunity:hover i,
+.red .single_feature .single_feature_text > h2,
+.red .single-blog-post .post-author > a:hover,
+.red .single-blog-post .post-favourite > a:hover,
+.red .single-blog-post .post-date > a:hover,
+.red .single-blog-post .post-comments > a:hover,
+.red .single-blog-post .post-headline > a:hover,
+.red .coming-soon-area .social_share_area > a {
+    color: #F44336;
+}
+
+.red .boast-btn,
+.red .boast-btn:hover,
+.red .testimonials-area .owl-dot,
+.red .single-blog-post blockquote,
+.red .pager .prev > a,
+.red .pager .next > a,
+.red .pager .prev > a:hover,
+.red .pager .next > a:hover {
+    border-color: #F44336;
+}
+
+.red .pager .prev > a,
+.red .pager .next > a,
+.red .coming-soon-area .subscribe_bar button,
+.red .coming-soon-area .social_share_area > a:hover,
+.red .boast-btn,
+.red .boast-btn.white-btn:hover,
+.red .support_text > h4 > a,
+.red #scrollUp {
+    color: #fff;
+}
+
+.red .support_text > h4 > a:hover,
+.red .boast-btn.white-btn:after,
+.red .new-collection > a:hover {
+    background-color: #fff;
+}
+
+.red .dropdown-item:hover {
+    background-color: #f7f7f9;
+}
+
+.red .boast-btn.white-btn {
+    border: 2px solid #fff;
+}
+
+.red .boast-btn.white-btn:hover {
+    border-color: #fff;
+}
+
+.red .collection_area .owl-dot.active {
+    border-color: transparent;
+}
+
+.red .pager .prev > a:hover,
+.red .pager .next > a:hover {
+    background-color: transparent;
+}
+
+/* ===================
+::  Pink Skin Area CSS
+=================== */
+
+.pink .pager .prev > a,
+.pink .pager .next > a,
+.pink .coming-soon-area .subscribe_bar button,
+.pink .coming-soon-area .social_share_area > a:hover,
+.pink #scrollUp,
+.pink .boast-btn:after,
+.pink .single_feature:hover .feature_icon > i,
+.pink .team-overlay-effect,
+.pink .left-side-menu,
+.pink .subscribe--area form > button,
+.pink .color_picker_switcher {
+    background-color: #E91E63;
+}
+
+.pink .wellcome_area .submit,
+.pink .content-area,
+.pink .new-collection > a,
+.pink .collection_area .owl-dot.active,
+.pink .support_text > h4 > a,
+.pink .call-to-action-area {
+    background: #E91E63;
+}
+
+.pink .pager .prev > a:hover,
+.pink .pager .next > a:hover,
+.pink .dropdown-item:hover,
+.pink .boast-btn:hover,
+.pink .boast-btn.white-btn,
+.pink .new-collection > a:hover,
+.pink .support_text > h4 > a:hover,
+.pink .social_links_area > a:hover,
+.pink .made_by_text > p > i,
+.pink .single_contact_area > p > i,
+.pink .support_text > h4,
+.pink .single_feature .single_feature_text > h2,
+.pink .single-feature-area > i,
+.pink .single-opportunity:hover i,
+.pink .single_feature .single_feature_text > h2,
+.pink .single-blog-post .post-author > a:hover,
+.pink .single-blog-post .post-favourite > a:hover,
+.pink .single-blog-post .post-date > a:hover,
+.pink .single-blog-post .post-comments > a:hover,
+.pink .single-blog-post .post-headline > a:hover,
+.pink .coming-soon-area .social_share_area > a {
+    color: #E91E63;
+}
+
+.pink .boast-btn,
+.pink .boast-btn:hover,
+.pink .testimonials-area .owl-dot,
+.pink .single-blog-post blockquote,
+.pink .pager .prev > a,
+.pink .pager .next > a,
+.pink .pager .prev > a:hover,
+.pink .pager .next > a:hover {
+    border-color: #E91E63;
+}
+
+.pink .pager .prev > a,
+.pink .pager .next > a,
+.pink .coming-soon-area .subscribe_bar button,
+.pink .coming-soon-area .social_share_area > a:hover,
+.pink .boast-btn,
+.pink .boast-btn.white-btn:hover,
+.pink .support_text > h4 > a,
+.pink #scrollUp {
+    color: #fff;
+}
+
+.pink .support_text > h4 > a:hover,
+.pink .boast-btn.white-btn:after,
+.pink .new-collection > a:hover {
+    background-color: #fff;
+}
+
+.pink .dropdown-item:hover {
+    background-color: #f7f7f9;
+}
+
+.pink .boast-btn.white-btn {
+    border: 2px solid #fff;
+}
+
+.pink .boast-btn.white-btn:hover {
+    border-color: #fff;
+}
+
+.pnik .collection_area .owl-dot.active {
+    border-color: transparent;
+}
+
+.pink .pager .prev > a:hover,
+.pink .pager .next > a:hover {
+    background-color: transparent;
+}
+
+/* ===================
+::  Purple Skin Area CSS
+=================== */
+
+.purple .pager .prev > a,
+.purple .pager .next > a,
+.purple .coming-soon-area .subscribe_bar button,
+.purple .coming-soon-area .social_share_area > a:hover,
+.purple #scrollUp,
+.purple .boast-btn:after,
+.purple .single_feature:hover .feature_icon > i,
+.purple .team-overlay-effect,
+.purple .left-side-menu,
+.purple .subscribe--area form > button,
+.purple .color_picker_switcher {
+    background-color: #9C27B0;
+}
+
+.purple .wellcome_area .submit,
+.purple .content-area,
+.purple .new-collection > a,
+.purple .collection_area .owl-dot.active,
+.purple .support_text > h4 > a,
+.purple .call-to-action-area {
+    background: #9C27B0;
+}
+
+.purple .pager .prev > a:hover,
+.purple .pager .next > a:hover,
+.purple .dropdown-item:hover,
+.purple .boast-btn:hover,
+.purple .boast-btn.white-btn,
+.purple .new-collection > a:hover,
+.purple .support_text > h4 > a:hover,
+.purple .social_links_area > a:hover,
+.purple .made_by_text > p > i,
+.purple .single_contact_area > p > i,
+.purple .support_text > h4,
+.purple .single_feature .single_feature_text > h2,
+.purple .single-feature-area > i,
+.purple .single-opportunity:hover i,
+.purple .single_feature .single_feature_text > h2,
+.purple .single-blog-post .post-author > a:hover,
+.purple .single-blog-post .post-favourite > a:hover,
+.purple .single-blog-post .post-date > a:hover,
+.purple .single-blog-post .post-comments > a:hover,
+.purple .single-blog-post .post-headline > a:hover,
+.purple .coming-soon-area .social_share_area > a {
+    color: #9C27B0;
+}
+
+.purple .boast-btn,
+.purple .boast-btn:hover,
+.purple .testimonials-area .owl-dot,
+.purple .single-blog-post blockquote,
+.purple .pager .prev > a,
+.purple .pager .next > a,
+.purple .pager .prev > a:hover,
+.purple .pager .next > a:hover {
+    border-color: #9C27B0;
+}
+
+.purple .pager .prev > a,
+.purple .pager .next > a,
+.purple .coming-soon-area .subscribe_bar button,
+.purple .coming-soon-area .social_share_area > a:hover,
+.purple .boast-btn,
+.purple .boast-btn.white-btn:hover,
+.purple .support_text > h4 > a,
+.purple #scrollUp {
+    color: #fff;
+}
+
+.purple .support_text > h4 > a:hover,
+.purple .boast-btn.white-btn:after,
+.purple .new-collection > a:hover {
+    background-color: #fff;
+}
+
+.purple .dropdown-item:hover {
+    background-color: #f7f7f9;
+}
+
+.purple .boast-btn.white-btn {
+    border: 2px solid #fff;
+}
+
+.purple .boast-btn.white-btn:hover {
+    border-color: #fff;
+}
+
+.purple .collection_area .owl-dot.active {
+    border-color: transparent;
+}
+
+.purple .pager .prev > a:hover,
+.purple .pager .next > a:hover {
+    background-color: transparent;
+}
+
+/* ===================
+::  Cyan Skin Area CSS
+=================== */
+
+.cyan .pager .prev > a,
+.cyan .pager .next > a,
+.cyan .coming-soon-area .subscribe_bar button,
+.cyan .coming-soon-area .social_share_area > a:hover,
+.cyan #scrollUp,
+.cyan .boast-btn:after,
+.cyan .single_feature:hover .feature_icon > i,
+.cyan .team-overlay-effect,
+.cyan .left-side-menu,
+.cyan .subscribe--area form > button,
+.cyan .color_picker_switcher {
+    background-color: #00BCD4;
+}
+
+.cyan .wellcome_area .submit,
+.cyan .content-area,
+.cyan .new-collection > a,
+.cyan .collection_area .owl-dot.active,
+.cyan .support_text > h4 > a,
+.cyan .call-to-action-area {
+    background: #00BCD4;
+}
+
+.cyan .pager .prev > a:hover,
+.cyan .pager .next > a:hover,
+.cyan .dropdown-item:hover,
+.cyan .boast-btn:hover,
+.cyan .boast-btn.white-btn,
+.cyan .new-collection > a:hover,
+.cyan .support_text > h4 > a:hover,
+.cyan .social_links_area > a:hover,
+.cyan .made_by_text > p > i,
+.cyan .single_contact_area > p > i,
+.cyan .support_text > h4,
+.cyan .single_feature .single_feature_text > h2,
+.cyan .single-feature-area > i,
+.cyan .single-opportunity:hover i,
+.cyan .single_feature .single_feature_text > h2,
+.cyan .single-blog-post .post-author > a:hover,
+.cyan .single-blog-post .post-favourite > a:hover,
+.cyan .single-blog-post .post-date > a:hover,
+.cyan .single-blog-post .post-comments > a:hover,
+.cyan .single-blog-post .post-headline > a:hover,
+.cyan .coming-soon-area .social_share_area > a {
+    color: #00BCD4;
+}
+
+.cyan .boast-btn,
+.cyan .boast-btn:hover,
+.cyan .testimonials-area .owl-dot,
+.cyan .single-blog-post blockquote,
+.cyan .pager .prev > a,
+.cyan .pager .next > a,
+.cyan .pager .prev > a:hover,
+.cyan .pager .next > a:hover {
+    border-color: #00BCD4;
+}
+
+.cyan .pager .prev > a,
+.cyan .pager .next > a,
+.cyan .coming-soon-area .subscribe_bar button,
+.cyan .coming-soon-area .social_share_area > a:hover,
+.cyan .boast-btn,
+.cyan .boast-btn.white-btn:hover,
+.cyan .support_text > h4 > a,
+.cyan #scrollUp {
+    color: #fff;
+}
+
+.cyan .support_text > h4 > a:hover,
+.cyan .boast-btn.white-btn:after,
+.cyan .new-collection > a:hover {
+    background-color: #fff;
+}
+
+.cyan .dropdown-item:hover {
+    background-color: #f7f7f9;
+}
+
+.cyan .boast-btn.white-btn {
+    border: 2px solid #fff;
+}
+
+.cyan .boast-btn.white-btn:hover {
+    border-color: #fff;
+}
+
+.cyan .collection_area .owl-dot.active {
+    border-color: transparent;
+}
+
+.cyan .pager .prev > a:hover,
+.cyan .pager .next > a:hover {
+    background-color: transparent;
+}
+
+/* ===================
+:: Teal Skin Area CSS
+=================== */
+
+.teal .pager .prev > a,
+.teal .pager .next > a,
+.teal .coming-soon-area .subscribe_bar button,
+.teal .coming-soon-area .social_share_area > a:hover,
+.teal #scrollUp,
+.teal .boast-btn:after,
+.teal .single_feature:hover .feature_icon > i,
+.teal .team-overlay-effect,
+.teal .left-side-menu,
+.teal .subscribe--area form > button,
+.teal .color_picker_switcher {
+    background-color: #009688;
+}
+
+.teal .wellcome_area .submit,
+.teal .content-area,
+.teal .new-collection > a,
+.teal .collection_area .owl-dot.active,
+.teal .support_text > h4 > a,
+.teal .call-to-action-area {
+    background: #009688;
+}
+
+.teal .pager .prev > a:hover,
+.teal .pager .next > a:hover,
+.teal .dropdown-item:hover,
+.teal .boast-btn:hover,
+.teal .boast-btn.white-btn,
+.teal .new-collection > a:hover,
+.teal .support_text > h4 > a:hover,
+.teal .social_links_area > a:hover,
+.teal .made_by_text > p > i,
+.teal .single_contact_area > p > i,
+.teal .support_text > h4,
+.teal .single_feature .single_feature_text > h2,
+.teal .single-feature-area > i,
+.teal .single-opportunity:hover i,
+.teal .single_feature .single_feature_text > h2,
+.teal .single-blog-post .post-author > a:hover,
+.teal .single-blog-post .post-favourite > a:hover,
+.teal .single-blog-post .post-date > a:hover,
+.teal .single-blog-post .post-comments > a:hover,
+.teal .single-blog-post .post-headline > a:hover,
+.teal .coming-soon-area .social_share_area > a {
+    color: #009688;
+}
+
+.teal .boast-btn,
+.teal .boast-btn:hover,
+.teal .testimonials-area .owl-dot,
+.teal .single-blog-post blockquote,
+.teal .pager .prev > a,
+.teal .pager .next > a,
+.teal .pager .prev > a:hover,
+.teal .pager .next > a:hover {
+    border-color: #009688;
+}
+
+.teal .pager .prev > a,
+.teal .pager .next > a,
+.teal .coming-soon-area .subscribe_bar button,
+.teal .coming-soon-area .social_share_area > a:hover,
+.teal .boast-btn,
+.teal .boast-btn.white-btn:hover,
+.teal .support_text > h4 > a,
+.teal #scrollUp {
+    color: #fff;
+}
+
+.teal .support_text > h4 > a:hover,
+.teal .boast-btn.white-btn:after,
+.teal .new-collection > a:hover {
+    background-color: #fff;
+}
+
+.teal .dropdown-item:hover {
+    background-color: #f7f7f9;
+}
+
+.teal .boast-btn.white-btn {
+    border: 2px solid #fff;
+}
+
+.teal .boast-btn.white-btn:hover {
+    border-color: #fff;
+}
+
+.teal .collection_area .owl-dot.active {
+    border-color: transparent;
+}
+
+.teal .pager .prev > a:hover,
+.teal .pager .next > a:hover {
+    background-color: transparent;
+}
+
+
+
+/* ===================
+:: Amber Skin Area CSS
+=================== */
+
+.amber .pager .prev > a,
+.amber .pager .next > a,
+.amber .coming-soon-area .subscribe_bar button,
+.amber .coming-soon-area .social_share_area > a:hover,
+.amber #scrollUp,
+.amber .boast-btn:after,
+.amber .single_feature:hover .feature_icon > i,
+.amber .team-overlay-effect,
+.amber .left-side-menu,
+.amber .subscribe--area form > button,
+.amber .color_picker_switcher {
+    background-color: #FFC107;
+}
+
+.amber .wellcome_area .submit,
+.amber .content-area,
+.amber .new-collection > a,
+.amber .collection_area .owl-dot.active,
+.amber .support_text > h4 > a,
+.amber .call-to-action-area {
+    background: #FFC107;
+}
+
+.amber .pager .prev > a:hover,
+.amber .pager .next > a:hover,
+.amber .dropdown-item:hover,
+.amber .boast-btn:hover,
+.amber .boast-btn.white-btn,
+.amber .new-collection > a:hover,
+.amber .support_text > h4 > a:hover,
+.amber .social_links_area > a:hover,
+.amber .made_by_text > p > i,
+.amber .single_contact_area > p > i,
+.amber .support_text > h4,
+.amber .single_feature .single_feature_text > h2,
+.amber .single-feature-area > i,
+.amber .single-opportunity:hover i,
+.amber .single_feature .single_feature_text > h2,
+.amber .single-blog-post .post-author > a:hover,
+.amber .single-blog-post .post-favourite > a:hover,
+.amber .single-blog-post .post-date > a:hover,
+.amber .single-blog-post .post-comments > a:hover,
+.amber .single-blog-post .post-headline > a:hover,
+.amber .coming-soon-area .social_share_area > a {
+    color: #FFC107;
+}
+
+.amber .boast-btn,
+.amber .boast-btn:hover,
+.amber .testimonials-area .owl-dot,
+.amber .single-blog-post blockquote,
+.amber .pager .prev > a,
+.amber .pager .next > a,
+.amber .pager .prev > a:hover,
+.amber .pager .next > a:hover {
+    border-color: #FFC107;
+}
+
+.amber .pager .prev > a,
+.amber .pager .next > a,
+.amber .coming-soon-area .subscribe_bar button,
+.amber .coming-soon-area .social_share_area > a:hover,
+.amber .boast-btn,
+.amber .boast-btn.white-btn:hover,
+.amber .support_text > h4 > a,
+.amber #scrollUp {
+    color: #fff;
+}
+
+.amber .support_text > h4 > a:hover,
+.amber .boast-btn.white-btn:after,
+.amber .new-collection > a:hover {
+    background-color: #fff;
+}
+
+.amber .dropdown-item:hover {
+    background-color: #f7f7f9;
+}
+
+.amber .boast-btn.white-btn {
+    border: 2px solid #fff;
+}
+
+.amber .boast-btn.white-btn:hover {
+    border-color: #fff;
+}
+
+.amber .collection_area .owl-dot.active {
+    border-color: transparent;
+}
+
+.amber .pager .prev > a:hover,
+.amber .pager .next > a:hover {
+    background-color: transparent;
+}
+
+
+@media (min-width: 320px) and (max-width: 575px) {
+    .color_picker_area {
+        padding: 20px 10px 20px 15px;
+        top: 15%;
+        width: 270px;
+    }
+    .color_picker_area.off {
+        left: -270px;
+    }
+}

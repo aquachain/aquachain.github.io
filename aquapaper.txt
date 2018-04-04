@@ -1,0 +1,163 @@
+
+HOW TO USE THIS AQUAPAPER:
+    
+    Welcome. You are invited to proof read and improve this paper. If any section is unclear, please write-in a question near the confusing line, and make it italic.
+
+
+AQUACHAIN Aquapaper
+
+Core: https://github.com/aquanetwork/aquachain
+Wiki: https://github.com/aquanetwork/aquachain/wiki/Basics
+Web: https://aquachain.github.io
+
+NO ICO, NO PRE-MINE, NO AIRDROP
+
+CPU GPU MINABLE + ASIC RESISTANT + SMART CONTRACTS
+
+IMMUTABILITY + SCHEDULED HARD FORKS
+
+100% DECENTRALIZED CORN
+
+Aquachain is a high-tech experimental distributed computing platform that you can deploy smart contracts on. It doesn't have a token standard and doesn't support token contracts.  In fact, smart contracts deployed on the Aquachain aren't guaranteed not to break after 10,000 blocks. There are frequent scheduled hard forks that allow Aquachain to grow rapidly and address scaling issues and implement new on-chain features and rules. Website: aquachain.github.io
+
+As far as hosting a non-mining node, its simple. Just build from source, with golang, and run with `aquachain daemon` or just `aquachain` for the aquachain console. It is compatible with 'geth' commands.
+
+Frequent HF might sound scary/complicated but (usually) we are able to know ahead of time (we are at 20,000 and next hf is at 28800), and (in my opinion) users of aquachain will not mind suspending deposits/withdraws for a few blocks in the time before a hardfork. 
+
+About the coin (basics):
+
+    Scheduled maintenance hardforks
+
+    1 coin block reward until block number 42000000 (42mil)
+
+    ASIC resistant - (will try to maintain this)
+
+    Smart Contracts (excluding tokens, including escrow, crowdfunding etc)
+    
+    reward: 1 coin per block
+
+    target block time: 4 minute blocks (240 seconds)
+
+    supply max: ~42mil
+
+    difficulty: currently using old school ethereum diff algo with no bomb
+
+    hashing algo: ethash
+
+Roadmap
+
+    frequent changes to the consensus algorithm (to stay ahead of ASICs until they are easily manufacturable by every joe)
+    frequent changes to the difficulty algorithm if needed (been good so far)
+    
+		(HF requires a hard fork, and Features can be implemented at any time.)
+		
+		* HF: Hashing Algorithm - Switching from ethash , re-attain CPU mining ability (if possible) (looking for algo where i7 outperforms 1080 Ti)
+		* Feature: GUI wallet - Just for balance / sending / check tx
+		* Feature: Chat and Announcements via Whisper protocol
+		* HF: Privacy / Fungibility
+		* HF: Kill contract after 10,000 blocks (what to do with AQUA inside the contract?)
+		* Feature: Funding system, inspired by monero's ffs
+		* Feature: Proof of Stake (collateral) Escrow System (see Poscrow)
+
+
+Tell me about Aquachain
+
+It is a cryptocurrency, with smart contracts, capable of rapid change in protocol. Without a pre-mine, pre-sale, ICO, or dev fund, Aquachain was created as a more experimental, slower, fair launch alternative to other smart contract platforms. With frequent scheduled hard forks, the protocol is able to transform rapidly. To allow anyone to easily audit or improve the code, the Go language was chosen to build the first implementation. To start, we used recent version of ethereum, a popular cryptocurrency known for (among other things) its "ERC-20" token contract standard. While currently there are no restrictions, there is no token standard for the Aquachain, and one is not planned for the future. There are many things beyond tokens that are possible with smart contracts. Because there are frequent scheduled hard forks, it is very important to check for updates.
+
+What is a hard fork? Scheduled maintenance hard forks?
+
+If we keep inserting blocks using the same exact methods, everything is great. For years. A hard fork is where a blockchain changes in a way that is not backwards compatible. Outdated mining software is made obsolete each hard fork.
+
+I hope the aquachain community will welcome the idea of frequent hardforks so we are always ready to act if needed.
+
+
+An example hard fork
+
+For example, an unseeable future event requires us to change the chain's future path. Hard forks can be created to add features, fix bugs before they are known publicly, for regulatory obligation, or any other reason. One type of change is a hashing algorithm change:
+    
+
+    All blocks before 10000 have our current hashing algorithm
+
+    Any block after 10000 uses the new algorithm
+
+
+In this example, the latest updated aquachain.exe will then contain both algorithms, and know when to use each one.
+
+Scheduled hard forks allow a blockchain to evolve over time. Care must be taken to keep mining going non-stop between forks.
+
+
+
+
+
+Aquachain Hardforks
+
+
+HF1, the first aquachain hardfork, we increased the minimum difficulty by a (very) small amount. This was a small change, but still made old versions obsolete.
+
+If miners fail to update, or choose not to, they will create an alternate chain that is not used by the newer updated miners. (totally not aquachain!)
+
+The direction of the chain is ultimately chosen by miners. Choices are inspired by needs of the users of the coin, implemented by the developers, 
+
+HF2
+An adjustment to the difficulty algorithm needed to be made. Now we are using old school eth difficulty algo with no "difficulty bomb" (target 240 sec)
+
+HF3
+Scheduled for 14400, (occured 13025) difficulty adjust for gpu announcement
+
+HF4
+Scheduled for 28800, (occured 21800) p2p messaging and genesis dealloc
+
+HF5
+Scheduled for 57000, reserved
+
+
+Suggesting an aquachain hard fork to be made
+
+I want X, Y, and Z to change about Aquachain
+
+Sometimes we dont need a hard fork to add features. In these cases, we can just add to the next release.
+
+Hard forks require pools and full nodes to update (any time before the fork), so they are only for important updates.
+
+If you want to submit a AHFP (Aquachain Hard Fork Proposal), see https://aquachain.github.io/ahfps
+If you want to work on the code, go right ahead! Be sure to join https://t.me/AquaCrypto group on telegram
+
+
+Multisig Proof of Stake Trading System (Contract to be deployed on the Aquachain)
+
+alice and bob find escrow parties that have more aqua than the tx is worth. need X number of them, from each team. need 2/3 able (no even numbers)
+
+alice puts aqua in the contract, tells bob and the escrow panel the contract 
+
+contract has something like Asking() which returns an exact btc amount for the total package , Amount()
+
+so me u and joe are escrow panel and sign up by putting that amoutn in the contract in a separate function, like Help() with any amoutn higher than Amount() returns
+
+alice has put in 10 aqua, asking 1 btc. 
+
+bob and alice advertise the contract somehow (maybe a decentralized exchange of sorts)
+
+escrow panel fills up , people put in 10 aqua to be part of it.
+
+so me u and joe put 10 aqua in, and so did alice. 
+
+bob sends his btc. knowing its now safe
+
+me u and joe receive the tx hash from bob, we insert it into the contract
+
+alice just got bob's btc, her aqua is still in the contract 
+
+since me u and joe agree on the same tx hash, we get our aqua back.
+
+alice's aqua gets released to bob.
+
+me u and joe got a little extra for participating honestly
+
+if bob was evil, he doesnt get anything
+
+if joe was evil, he loses his 10 aqua
+
+alice either gets btc or gets her 10 aqua back
+
+
+

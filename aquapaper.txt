@@ -1,1 +1,102 @@
-Moved: /aquapaper.html
+AQUACHAIN Aquapaper
+
+Core: https://gitlab.com/aquachain/aquachain
+Wiki: https://gitlab.com/aquachain/aquachain/wikis/Basics
+Web: https://aquachain.github.io or https://aquacha.in
+
+NO ICO, NO PRE-MINE, NO AIRDROP
+
+CPU GPU MINABLE + ASIC RESISTANT + SMART CONTRACTS
+
+IMMUTABILITY + SCHEDULED HARD FORKS
+
+100% DECENTRALIZED CORN
+
+Aquachain is a high-tech experimental distributed computing platform that you can deploy smart contracts on. It doesn't have a token standard and doesn't support token contracts.  In fact, smart contracts deployed on the Aquachain aren't guaranteed not to break after 10,000 blocks. There are frequent scheduled hard forks that allow Aquachain to grow rapidly and address scaling issues and implement new on-chain features and rules. Website: aquachain.github.io
+
+As far as hosting a non-mining node, its simple. Just build from source, with golang, and run with `aquachain daemon` or just `aquachain` for the aquachain console. The full node is compatible with ethereum RPC software and Web3.
+
+About the coin (basics):
+
+    Scheduled maintenance hardforks
+
+    1 coin block reward until block number 42000000 (42mil)
+
+    ASIC resistant - (will hard fork to try to maintain this)
+
+    Smart Contracts (excluding tokens, including escrow, crowdfunding etc)
+    
+    reward: 1 coin per block
+
+    target block time: 4 minute blocks (240 seconds)
+
+    supply max: ~42mil
+
+	hashing algo: forked to argon2id from ethash
+
+	chainID: 61717561
+
+Tell me about Aquachain
+
+It is a cryptocurrency, with smart contracts, capable of rapid change in protocol. Without a pre-mine, pre-sale, ICO, or dev fund, Aquachain was created as a more experimental, slower, fair launch alternative to other smart contract platforms. With frequent scheduled hard forks, the protocol is able to transform rapidly. To allow anyone to easily audit or improve the code, the Go language was chosen to build the first implementation. To start, we used recent version of ethereum, a popular cryptocurrency known for (among other things) its "ERC-20" token contract standard. Because there are frequent scheduled hard forks, it is very important to check for updates.
+
+What is a hard fork? Scheduled maintenance hard forks?
+
+If we keep inserting blocks using the same exact methods, everything is great. For years. A hard fork is where a blockchain changes in a way that is not backwards compatible. Outdated mining software is made obsolete each hard fork.
+
+An example hard fork
+
+For example, an unseeable future event requires us to change the chain's future path. Hard forks can be created to add features, fix bugs before they are known publicly, for regulatory obligation, or any other reason. One type of change is a hashing algorithm change:
+    
+
+    All blocks before 10000 have our current hashing algorithm
+
+    Any block after 10000 uses the new algorithm
+
+
+In this example, the latest updated aquachain.exe will then contain both algorithms, and know when to use each one.
+
+Scheduled hard forks allow a blockchain to evolve over time. Care must be taken to keep mining going non-stop between forks.
+
+
+
+
+
+Aquachain Hardforks
+
+
+HF1, the first aquachain hardfork, we increased the minimum difficulty by a (very) small amount. This was a small change, but still made old versions obsolete.
+
+If miners fail to update, or choose not to, they will create an alternate chain that is not used by the newer updated miners. (totally not aquachain!)
+
+The direction of the chain is ultimately chosen by miners. Choices are inspired by needs of the users of the coin, implemented by the developers, 
+
+HF2
+An adjustment to the difficulty algorithm needed to be made. Now we are using old school eth difficulty algo with no "difficulty bomb" (target 240 sec)
+
+HF3
+Scheduled for 14400, (occured 13025) difficulty adjust for gpu announcement
+
+HF4
+Scheduled for 28800, (occured 21800) p2p messaging and genesis dealloc
+
+HF5
+Scheduled for 57000, (occured 22800)
+
+HF6
+Block 36000
+
+HF7
+Block 36050
+
+See what hardfork map you have by running 'aquachain version'
+
+Suggesting an aquachain hard fork to be made
+
+I want X, Y, and Z to change about Aquachain
+
+Sometimes we dont need a hard fork to add features. In these cases, we can just add to the next release.
+
+Hard forks require pools and full nodes to update (any time before the fork), so they are only for important updates.
+
+If you want to work on the code, go right ahead! Be sure to join https://t.me/AquaCrypto group on telegram

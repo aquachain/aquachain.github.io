@@ -23,7 +23,7 @@ particlesJS('particles-js',
         }
       },
       "color": {
-        "value": "#ffffff"
+        "value": "#2fa4fb"
       },
       "shape": {
         "type": "circle",
@@ -35,7 +35,7 @@ particlesJS('particles-js',
           "nb_sides": 5
         },
         "image": {
-          "src": "img/github.svg",
+          "src": "img/a100.png",
           "width": 100,
           "height": 100
         }
@@ -123,7 +123,7 @@ particlesJS('particles-js',
     "config_demo": {
       "hide_card": false,
       "background_color": "#b61924",
-      "background_image": "",
+      "background_image": "img/a100.png",
       "background_position": "50% 50%",
       "background_repeat": "no-repeat",
       "background_size": "cover"

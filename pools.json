@@ -1,7 +1,7 @@
 [
   "https://aquacha.in/api/",
   "https://aqua.signal2noi.se/api/",
-  "https://aquapool.rplant.xyz/api/",
+  "http://aquapool.rplant.xyz/api/",
   "https://aquachain.wattpool.net/api/",
   "http://aqua.hashpool.eu/api/"
 ]

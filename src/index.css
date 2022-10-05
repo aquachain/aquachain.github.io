@@ -1,0 +1,88 @@
+/* 
+Copyright 2022 The Aquachain Authors. All rights reserved.
+Use of this source code is governed by the MIT license
+*/
+@font-face {
+  font-family: firacode;
+  src: url('vendored/FiraCode-Regular.woff2') format('woff2'),
+    url("vendored/FiraCode-Regular.woff") format("woff");
+  font-weight: 400;
+  font-style: normal;
+}
+
+html {
+  --rk-fonts-body: 'firacode';
+  font-family: firacode, 'Fira Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+}
+
+body {
+  margin: 0;
+  font-family: firacode, 'Fira Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #101020;
+  color: lightgray;
+}
+
+body {
+  margin: 0;
+  /* font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif; */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+#footer::after {
+  content: "0x61717561";
+  color: rgba(255, 255, 255, 0.1)
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+html,
+body {
+  background-color: #000;
+  /* min-height: 100vh; */
+  /* display: flex;
+  flex-direction: column; */
+  /* align-items: center;
+  justify-content: center; */
+  font-size: calc(10px + 1.2vmin);
+  color: rgb(207, 211, 212);
+  padding: 3px;
+  margin-top: 0.25rem;
+  margin-bottom: 1rem;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  margin: auto;
+}
+
+.flex {
+  display: "flex";
+}
+
+.flexcol {
+  display: "flex";
+  flex-direction: "column";
+}
+
+.flexrow {
+  display: "flex";
+  flex-direction: "row";
+}
+
+.center {
+  display: "flex";
+  margin: "auto";
+}

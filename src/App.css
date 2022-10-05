@@ -1,0 +1,214 @@
+/* 
+Copyright 2022 The Aquachain Authors. All rights reserved.
+Use of this source code is governed by the MIT license
+*/
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+p {
+  text-align: justify;
+
+}
+
+a {
+  color: white;
+  font-weight: bold;
+}
+
+code {
+  color: #00FFDD;
+}
+
+.container {
+  padding: 1rem;
+  background-color: rgba(0, 0, 0, .1);
+  border: 1px solid #00FFDD;
+}
+
+div.container {
+  margin-bottom: 0;
+  padding-bottom: 0;
+  border-bottom: none;
+}
+
+
+div.container div.container {
+  margin-bottom: 0;
+  padding-bottom: 0;
+  z-index: -100;
+}
+
+button {
+  font-size: 16px;
+  letter-spacing: 2px;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #000;
+  cursor: pointer;
+  border: 3px solid;
+  padding: 0.25em 0.5em;
+  box-shadow: 1px 1px 0px 0px, 2px 2px 0px 0px, 3px 3px 0px 0px, 4px 4px 0px 0px, 5px 5px 0px 0px;
+  position: relative;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+div.docnav button {
+  border-color: white;
+  background: none;
+  color: white;
+}
+
+button:hover {
+  background-color: #00FFDD;
+}
+
+button:active,
+a.active button {
+  box-shadow: 0px 0px 0px 0px;
+  border-color: teal;
+  background-color: black;
+  color: white;
+}
+
+@media (min-width: 768px) {
+  button {
+    padding: 0.25em 0.75em;
+  }
+}
+
+
+
+::selection {
+  background-color: none;
+  color: teal;
+}
+
+
+
+@media screen and (max-width: 900px) {
+  .center_sm {
+    display: flex;
+    margin: auto;
+  }
+
+  img.logo {
+    width: 50vw;
+    float: none;
+    margin: auto;
+  }
+}
+
+@media screen and (min-width: 900px) {
+  img.logo {
+    width: 10rem;
+    float: right;
+    margin: 5rem;
+    margin-right: 3rem;
+  }
+}
+
+button.external-link::after {
+  content: "";
+  background: transparent url('./icons/paperclip.png') no-repeat;
+  background-size: cover;
+  /* border: 1px solid white; */
+  width: 1rem;
+  height: 1rem;
+  top: -0.5rem;
+  right: -0.1rem;
+  display: inline;
+  position: absolute;
+  /* left: -0.5rem; */
+}
+
+.big,
+.big-external-link {
+  font-size: xx-large;
+}
+
+.small {
+  font-size: small;
+  color: teal;
+}
+
+button.big-external-link::after {
+  content: "";
+  background: transparent url('./icons/paperclip.png') no-repeat;
+  background-size: cover;
+  /* border: 1px solid white; */
+  width: 2rem;
+  height: 2rem;
+  top: -1rem;
+  right: -0.2rem;
+  display: inline-block;
+  position: absolute;
+  /* left: -0.5rem; */
+}
+
+.markdown {
+  font-size: medium;
+  background-color: #000;
+  z-index: 99999;
+
+}
+
+#tsparticles {
+  z-index: -9999 !important;
+  opacity: 0.5;
+}
+
+.buttongroup .metalink {
+  min-width: 40vw;
+}
+
+.bgteal {
+  background-color: teal;
+  color: black;
+}
+
+.bgcyan {
+  background-color: cyan;
+  color: black;
+}
+
+.buttongroup {
+  text-align: center;
+}
+
+div.linktree {
+  max-width: 50vw;
+  margin: auto;
+  text-align: center;
+  width: 100%;
+}
+
+div.linktree button {
+  margin: 0.3rem;
+  padding: 0.5rem;
+}
+
+#breadcrumb a {
+  background-color: #223344;
+  border-bottom: 1px solid cyan;
+}
+
+#breadcrumb div,
+#breadcrum span {
+  display: flex;
+  flex-direction: row;
+}

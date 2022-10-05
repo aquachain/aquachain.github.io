@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="512mm"
+   height="512mm"
+   viewBox="0 0 512 512"
+   version="1.1"
+   id="svg8"
+   inkscape:version="0.92.4 (5da689c313, 2019-01-14)"
+   sodipodi:docname="aqua-icon.svg"
+   inkscape:export-filename="/home/human/aqua-logo-32.png"
+   inkscape:export-xdpi="1.59"
+   inkscape:export-ydpi="1.59">
+  <defs
+     id="defs2" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.12374369"
+     inkscape:cx="-2758.4826"
+     inkscape:cy="439.82818"
+     inkscape:document-units="mm"
+     inkscape:current-layer="layer2"
+     showgrid="false"
+     inkscape:window-width="1920"
+     inkscape:window-height="1023"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1" />
+  <metadata
+     id="metadata5">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:groupmode="layer"
+     id="layer3"
+     inkscape:label="Layer 3" />
+  <g
+     inkscape:groupmode="layer"
+     id="layer2"
+     inkscape:label="Layer 2">
+    <ellipse
+       ry="252.83862"
+       rx="252.31078"
+       cy="255.95581"
+       cx="254.44058"
+       id="ellipse905"
+       style="fill:#2f7afb;fill-opacity:1;stroke:#999999;stroke-width:0.26127082;stroke-opacity:1" />
+    <ellipse
+       style="fill:#d7e3f4;fill-opacity:1;stroke:#999999;stroke-width:0.24524523;stroke-opacity:1"
+       id="path864"
+       cx="254.44058"
+       cy="255.95581"
+       rx="236.83472"
+       ry="237.3302" />
+  </g>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(0,215)">
+    <path
+       inkscape:export-ydpi="77.754112"
+       inkscape:export-xdpi="77.754112"
+       inkscape:export-filename="/home/user/a-9.png"
+       inkscape:connector-curvature="0"
+       id="path3765"
+       d="m 43.506396,238.61898 c -0.16818,-14.87201 -0.336333,-29.74404 -0.504486,-44.61606 73.72701,-122.827226 145.87886,-246.601415 218.74265,-369.94444 66.58056,114.169162 133.14272,228.348999 199.7504,342.50231 -36.12199,-0.21822 -72.24398,-0.43644 -108.366,-0.65466 C 322.65972,113.84158 291.73666,62.032603 261.84962,9.6334283 233.20106,56.363889 204.5525,103.09433 175.90395,149.8248 c 29.77285,-12.36359 59.53269,-24.75869 89.3224,-37.08166 -0.76995,27.76659 -1.5399,55.53318 -2.30984,83.29977 -40.25084,14.21766 -80.3083,29.55831 -120.67997,43.07442 -32.91003,-0.16612 -65.820075,-0.33223 -98.730144,-0.49835 z"
+       style="fill:#2fa4fb;stroke:#006fff;stroke-width:15.43807983;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+  </g>
+</svg>

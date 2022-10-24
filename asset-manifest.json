@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/static/css/main.be5ba7ea.css",
+    "main.js": "/static/js/main.cd6cdb74.js",
+    "static/media/FiraCode-Regular.woff": "/static/media/FiraCode-Regular.a25d3a54ca0de3944eb7.woff",
+    "static/media/FiraCode-Regular.woff2": "/static/media/FiraCode-Regular.bf5ea52fa0094c7f7621.woff2",
+    "index.html": "/index.html"
+  },
+  "entrypoints": [
+    "static/css/main.be5ba7ea.css",
+    "static/js/main.cd6cdb74.js"
+  ]
+}

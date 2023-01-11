@@ -175,7 +175,14 @@ button.big-external-link::after {
 .buttongroup .metalink {
   min-width: 40vw;
 }
+.narrow {
+  max-width: fit-content;
+}
 
+.center {
+  text-align: center;
+  margin: auto;
+}
 .bgteal {
   background-color: teal;
   color: black;

@@ -25,6 +25,7 @@ export const AboutPage = () => {
                 <Metalink button to="https://gitlab.com/aquachain/aquachain">Aquachain Source Code</Metalink>
                 <Metalink button to="/learn/contracts">Guide: Contracts</Metalink>
                 <Metalink button to="/learn/building">Guide: Building</Metalink>
+                <Metalink button to="https://safe.trade/trading/aquabtc">Trade AQUA/BTC at SafeTrade</Metalink>
                 <h2>Why slow blocks? Why no tokens?</h2>
                 <p>TLDR: <em>Slow blocks &rarr; No Swap Router &rarr; Less ERC20 Tokens &rarr; Less Gas Wars</em></p>
                 <p>

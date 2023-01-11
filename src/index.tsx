@@ -21,7 +21,7 @@ export const Footer = () => {
       <div style={{ textAlign: "center", backgroundColor: "rgba(228,235,243, 0.4)" }}><img className="flex center" src={process.env.PUBLIC_URL + "/img/aqua_header.png"} /></div>
       <div id="footer">
 
-        Copyright &copy; 2018-2022 the Aquachain Authors.
+        Copyright &copy; 2018-2023 the Aquachain Authors.
         {" "}
         <a target="_blank" rel="noreferrer" href="https://github.com/orgs/aquachain/repositories">Become one</a>
         {" "}

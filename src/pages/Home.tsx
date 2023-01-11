@@ -5,7 +5,6 @@ import { useEffect, useState } from "react"
 import toast from "react-hot-toast"
 import { Link } from "react-router-dom"
 import { Metalink } from "../components/Metalink"
-
 // fetches supply and latest release tag
 export const HomePage = () => {
     const [supply, setSupply] = useState<string>()
@@ -98,7 +97,6 @@ Explorer: https://aquachain.github.io/explorer/#/
 
 `}
         </pre>
-
         <div className="buttongroup ">
             <Metalink className="big" button to="/about">Learn More</Metalink>
             <Metalink className="big" style={navstyle} button to="https://github.com/aquachain/aquachain/releases">Latest Release {versionStr}</Metalink>
@@ -109,6 +107,21 @@ Explorer: https://aquachain.github.io/explorer/#/
             <Metalink className="big" button to="/learn/rpc">Guide: RPC</Metalink>
             <Metalink className="big" button to="/learn/contracts">Guide: Deploying Contracts</Metalink>
 
+        </div >
+
+        <div className="buttongroup narrow center" style={{ padding: "2rem" }}>
+            <a target={"_blank"} rel={"noreferrer noorigin"} href="https://safe.trade/trading/aquabtc">
+                <div style={{ textAlign: "center", margin: "2rem", border: "1px solid white" }}>
+                    <img style={{}} src={process.env.PUBLIC_URL + "/icons/safetrade.svg"} alt=" " />
+                </div>
+                SafeTrade is the #1 place to trade AQUA/BTC
+            </a>
+            <a target={"_blank"} rel={"noreferrer noorigin"} href="https://www.coingecko.com/en/coins/aquachain">
+                <div style={{ textAlign: "center", margin: "2rem", border: "1px solid white" }}>
+                    <img style={{}} src={process.env.PUBLIC_URL + "/icons/coingecko-logo-white-ea42ded10e4d106e14227d48ea6140dc32214230aa82ef63d0499f9c1e109656.png"} alt=" " />
+                </div>
+                Add Aquachain to your CoinGecko watchlist
+            </a>
         </div >
     </div >
 }

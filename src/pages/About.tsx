@@ -25,7 +25,7 @@ export const AboutPage = () => {
                 <Metalink button to="https://gitlab.com/aquachain/aquachain">Aquachain Source Code</Metalink>
                 <Metalink button to="/learn/contracts">Guide: Contracts</Metalink>
                 <Metalink button to="/learn/building">Guide: Building</Metalink>
-                <Metalink button to="https://safe.trade/trading/aquabtc">Trade AQUA/BTC at SafeTrade</Metalink>
+                <Metalink button to="https://safetrade.com/exchange/AQUA-BTC">Trade AQUA/BTC at SafeTrade</Metalink>
                 <h2>Why slow blocks? Why no tokens?</h2>
                 <p>TLDR: <em>Slow blocks &rarr; No Swap Router &rarr; Less ERC20 Tokens &rarr; Less Gas Wars</em></p>
                 <p>
@@ -141,7 +141,7 @@ export const AboutPage = () => {
                     <Metalink button to="/learn/readme">Read the README!</Metalink>
                     <Metalink button to="/learn/wallets">Wallets</Metalink>
                     <Metalink button to="/learn/mining">Mine it today</Metalink>
-                    <Metalink button to="https://safe.trade/trading/aquabtc?aquawebsite">Trading at SafeTrade</Metalink>
+                    <Metalink button to="https://safetrade.com/exchange/AQUA-BTC">Trading at SafeTrade</Metalink>
                     <Metalink button to="https://bscscan.com/token/0x38FAB266089AAf3BC2F11B791213840Ea3D587C7">Bridged to BSC</Metalink>
                     <Metalink button to="/learn/building">Guide: Building on Aquachain</Metalink>
                     <Metalink button to="/learn/rpc">Guide: Hosting an RPC server</Metalink>

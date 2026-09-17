@@ -103,14 +103,14 @@ Explorer: https://aquachain.github.io/explorer/#/
             <Metalink className="big" button to="/connect">Add network to Web3 Wallet</Metalink>
             <Metalink className="big" button to="/learn/mining">Guide: Mining (CPU or GPU)</Metalink>
             <Metalink className="big" button to="https://aquachain.github.io/explorer/#/">Block Explorer</Metalink>
-            <Metalink className="big" button to="https://safe.trade/trading/aquabtc?aquawebsite">Trading at SafeTrade</Metalink>
+            <Metalink className="big" button to="https://safetrade.com/exchange/AQUA-BTC">Trading at SafeTrade</Metalink>
             <Metalink className="big" button to="/learn/rpc">Guide: RPC</Metalink>
             <Metalink className="big" button to="/learn/contracts">Guide: Deploying Contracts</Metalink>
 
         </div >
 
         <div className="buttongroup narrow center" style={{ padding: "2rem" }}>
-            <a target={"_blank"} rel={"noreferrer noorigin"} href="https://safe.trade/trading/aquabtc">
+            <a target={"_blank"} rel={"noreferrer noorigin"} href="https://safetrade.com/exchange/AQUA-BTC">
                 <div style={{ textAlign: "center", margin: "2rem", border: "1px solid white" }}>
                     <img style={{}} src={process.env.PUBLIC_URL + "/icons/safetrade.svg"} alt=" " />
                 </div>
